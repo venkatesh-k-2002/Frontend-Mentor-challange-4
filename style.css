@@ -21,6 +21,8 @@ body{
     justify-content: center;
     align-items: start;
     padding: 40.5px;
+    margin: 100px 0;
+    border-radius: 20px;
 }
 .container img{
     width: 100%;
@@ -107,6 +109,7 @@ b{
 .nutritions{
     width: 100%;
 }
+
 .nutrition-table {
     width: 100%;
     border-collapse: collapse;
