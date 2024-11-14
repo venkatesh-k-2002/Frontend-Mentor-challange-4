@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+}
+body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F3E5D8;
+}
+.container{
+    width: 735px;
+    height: 100%;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 40.5px;
+}
+.container img{
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+.container h1{
+    font-size: 40px;
+    font-family: "Young Serif", serif;
+    font-weight: 500;
+    padding-top: 30px;
+}
+.container p{
+    font-family: "Outfit", sans-serif;
+    color: grey;
+    padding-top: 20px;
+}
+.time{
+    width: 100%;
+    background-color: #FFF7FC;
+    padding: 25px;
+    margin: 30px 0;
+    border-radius: 10px;
+}
+.time h2{
+    font-size: 21px;
+    font-weight: 500;
+    color: hsl(332, 51%, 32%);
+}
+.time ul{
+    padding-left: 30px;
+}
+.time ul li{
+    font-size: 15px;
+    padding-top: 10px;
+    color: grey;
+}
+.time ul li strong{
+    color: black;
+}
+.ingredients{
+    width: 100%;
+}
+.heading{
+    font-family: "Young Serif", serif;
+    font-size: 25px;
+    font-weight: 500;
+    color: hsl(14, 45%, 36%);
+}
+.ingredients ul{
+    padding-left: 30px;
+    margin-bottom: 25px;
+}
+.ingredients ul li{
+    font-size: 15px;
+    padding-top: 10px;
+    color: grey; 
+}
+hr{
+    color: grey;
+}
+b{
+    color: black;
+}
+.instructions{
+    width: 100%;
+    margin: 20px 0;
+}
+.instructions ol{
+    padding-left: 30px;
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+.instructions li{
+    padding-top: 10px;
+    text-align: justify;
+    color: grey;
+}
+ li::marker{
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+}
+
+.nutritions{
+    width: 100%;
+}
+.nutrition-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #e0e0e0; 
+  }
+  
+  .label {
+    font-weight: normal;
+    width: 50%;
+    padding-left: 15px;
+    color: #4f4f4f; 
+  }
+  
+  .value {
+    font-weight: bold;
+    color: #8b4513; 
+    text-align: left;
+    width: 50%; 
+  }
