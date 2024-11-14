@@ -61,7 +61,7 @@ body{
     color: grey;
 }
 .time ul li strong{
-    color: black;
+    color: rgb(93, 93, 93);
 }
 .ingredients{
     width: 100%;
@@ -85,7 +85,7 @@ hr{
     color: grey;
 }
 b{
-    color: black;
+    color: rgb(93, 93, 93);
 }
 .instructions{
     width: 100%;
